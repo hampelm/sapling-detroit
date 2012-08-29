@@ -1,40 +1,94 @@
-#page .welcome td {
-    display: block;
-    max-width: 1360px;
-    height: 280px;
-    background-image: url(/front_page/_files/welcome.jpg);
-    background-position: 66% -100px;
-    background-repeat: no-repeat;
-    padding: 2em;
-    border: 3px solid #b5b5b5;
+.structure {
+  width: 100%;
+  border:0px none;
+  margin:0;
 }
-#page .welcome {
-    width: 100%;
-    border: none;
+
+.structure td {
+  max-width: 1360px;
+  border:0px none;
 }
-#page .welcome a {
-    text-decoration: none;
+
+body table.welcome {
+  border-top:3px solid #abbfcc;
+  border-bottom:3px solid #abbfcc;
+  border:5px solid #abbfcc;
 }
-#page .welcome a:hover {
-    text-decoration: underline;
+
+.welcome td {
+  background:#ffe url(../img/river.jpg) no-repeat left top;
 }
-#page .welcome h1, #page .welcome h2, #page .welcome h3, #page .welcome h4 {
-    background-image: url(/front_page/_files/80_trans_white_bg.png);
-    background-repeat: repeat;
-    width: auto;
-    float: right;
-    padding: 0 0.25em 0 0.25em;
+
+.welcome h1, 
+.welcome h3 {
+  color:#fff;
+  text-shadow: 0 1px 0 rgba(5, 5, 5, 0.7);
 }
-#page .welcome h1 {
-    padding: 0.1em 0.25em 0.1em 0.25em;
+
+.welcome a { 
+  color:#fff;
 }
-#page .welcome h3 {
-    padding: 0.2em 0.3em 0.25em 0.3em;
-    margin-top: -1em;
+
+.welcome h1 {
+  margin:60px 0px 0px 20px;
 }
-#page .welcome .searchbox * {
-    vertical-align: middle;
+
+.welcome h3 {
+  margin-left:20px;
+  margin-bottom:15px;
 }
-#page .welcome .searchbox input {
-    margin-top: 0.4em;
+
+.createapage {
+  text-align:center;
 }
+
+.createapage td {
+  padding:12px 0px;
+  border:1px solid #ddd;
+  border-width:0px 0px;
+}
+
+.createapage p {
+  margin-top:-10px;
+  font-size:14px;
+}
+
+.createapage-prompt {
+  font-size:20px;
+  line-height:2em;
+  
+}
+
+.biglinks {
+  margin-bottom:20px;
+}
+
+.biglinks td {
+  color:#ffe;
+  background: #5d839a;
+  padding:15px 0px;
+  text-align:center;
+}
+
+.biglinks {
+  padding:1px;
+  border-top:2px solid #abbfcc;
+  border-bottom:2px solid #abbfcc;
+}
+
+.biglinks a {
+  margin:0px 5px 0px 20px;
+  font-size:20px;
+  color:#ffe;
+}
+
+.dsc td, .about td {
+  padding-bottom:25px;
+}
+
+.dsc, .about {
+  margin-bottom:25px;
+  border-bottom:1px solid #abbfcc;
+  
+}
+

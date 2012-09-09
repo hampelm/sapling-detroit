@@ -12,11 +12,11 @@
 body table.welcome {
   border-top:3px solid #abbfcc;
   border-bottom:3px solid #abbfcc;
-  border:5px solid #abbfcc;
+  border:3px solid #abbfcc;
 }
 
 .welcome td {
-  background:#6c8fa5;
+  background:#ffe url(../img/river.jpg) no-repeat left top;
 }
 
 .welcome h1, 
